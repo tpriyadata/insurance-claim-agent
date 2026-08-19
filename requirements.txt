@@ -1,0 +1,19 @@
+## Requirements for the Insurance Claim Agent
+## Environment variables (API keys, DB connection strings)
+# Agent Orchestration & State Graph
+langgraph>=0.2.0
+langgraph-checkpoint>=2.0.0
+
+# LLM Framework & Anthropic Integration
+langchain-anthropic>=0.1.15
+langchain-core>=0.2.0
+anthropic>=0.28.0
+
+# Data Validation & Schemas
+pydantic>=2.7.0
+
+# Configuration & Environment
+python-dotenv>=1.0.1
+
+# Observability & Tracing (Optional but Recommended)
+langsmith>=0.1.50
